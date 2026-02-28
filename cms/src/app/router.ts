@@ -1,5 +1,5 @@
 import { createWebHistory, createRouter } from "vue-router";
-import {RoutesName, RoutesTitle} from "@/shared/common/routes.const.ts";
+import {RoutesName, RoutesTitle} from "@/shared/constants/routes.const.ts";
 const MainPage = () => import("@/pages/main-page/MainPage.vue");
 const ArticleEditorPage = () => import("@/pages/article-editor-page/ArticleEditorPage.vue");
 
