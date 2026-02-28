@@ -5,3 +5,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+button {
+  border: none;
+  background: none;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  outline: none;
+}
